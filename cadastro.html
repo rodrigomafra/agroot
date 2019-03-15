@@ -17,36 +17,28 @@
     <link rel="stylesheet" href="http://cdn.materialdesignicons.com/3.5.95/css/materialdesignicons.min.css">
 </head>
 
-<body class="layout layout-vertical layout-left-navigation layout-below-toolbar layout-below-footer media-step-xl fuse-aside-folded">
+<body class="layout layout-vertical layout-left-navigation layout-below-toolbar layout-below-footer media-step-xl fuse-aside-folded" style="background-color: #49423D;">
     <main>
         <div class="wrapper">
             <div class="content-wrapper">
                 <div class="content custom-scrollbar ps ps--active-y">
-                    <div id="login-v2" class="row no-gutters">
-                        <div class="intro col-12 col-md light-fg">
-                            <div class="d-flex flex-column align-items-center align-items-md-start text-center text-md-left py-16 py-md-32 px-12">
-                                <div class="logo bg-green-600 text-auto mb-8"><span>A</span></div>
-                                <div class="title">
-                                    <h1>Seja bem-vindo ao Agroot</h1>
-                                    <p class="description pt-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ullamcorper nisl erat, vel convallis elit fermentum pellentesque. Sed mollis velit facilisis facilisis viverra.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="form-wrapper col-12 col-md-auto d-flex justify-content-center p-4 p-md-0">
-                            <div class="form-content md-elevation-8 h-100 bg-white text-auto py-16 py-md-32 px-12">
-                                <h5 class="title h5">Entre com a sua conta</h5>
-                                <p class="description mt-2">Sed mollis velit facilisis facilisis viverra</p>
-                                <form class="mt-8" name="loginForm" novalidate="">
-                                    <div class="form-group mb-4"><input class="form-control" type="email" id="loginFormInputEmail" aria-describedby="emailHelp" placeholder=""><label for="loginFormInputEmail">Endereço de e-mail</label></div>
-                                    <div class="form-group mb-4"><input class="form-control" type="password" id="loginFormInputPassword" placeholder="Senha"><label for="loginFormInputPassword">Senha</label></div>
-                                    <div class="remember-forgot-password row no-gutters align-items-center justify-content-between pt-4">
-                                        <div class="form-check remember-me mb-4"><label class="form-check-label"><input type="checkbox" class="form-check-input" aria-label="Lembrar"><span class="checkbox-icon fuse-ripple-ready"></span><span class="form-check-description">Lembrar</span></label></div>
-                                        <a
-                                            href="#" class="forgot-password text-secondary mb-4">Esqueci minha senha</a>
-                                    </div><a class="btn btn-primary btn-block submit-button my-4 mx-auto fuse-ripple-ready" role="button" href="#modal-desenvolvimento" data-toggle="modal">ENTRAR</a></form>
-                                <div class="separator"><span class="text">ou</span></div>
-                                <div class="register d-flex flex-column flex-sm-row align-items-center justify-content-center mt-8 mb-6 mx-auto"><span class="text mr-sm-2">Não tem uma conta?</span><a href="cadastro.html" class="link text-secondary">Criar uma conta agora</a></div>
-                            </div>
+                    <div id="register" class="p-8">
+                        <div class="form-wrapper md-elevation-8 p-8">
+                            <div class="logo bg-secondary bg-green-600"><span>A</span></div>
+                            <p class="title mt-4 mb-8">Faça seu cadastro</p>
+                            <form name="registerForm" novalidate="">
+                                <div class="form-group mb-4"><input class="form-control mb-4" type="text" id="registerFormInputName" aria-describedby="nameHelp" placeholder=""><label for="registerFormInputName">Nome</label></div>
+                                <div class="form-group mb-4"><input class="form-control mb-4" type="text" id="registerFormInputLastName" aria-describedby="nameHelp" placeholder=""><label for="registerFormInputLastName">Sobrenome</label></div>
+                                <div class="form-group mb-4"><input class="form-control mb-4" type="text" inputmode="email" id="registerFormInputEmail" aria-describedby="emailHelp" placeholder=""><label for="registerFormInputEmail">E-mail</label></div>
+                                <div class="form-group mb-4"><input class="form-control mb-4" type="text" inputmode="tel" id="registerFormInputTelefone" aria-describedby="telefoneHelp" placeholder=""><label for="registerFormInputTelefone">Telefone</label></div>
+                                <div class="form-group mb-4"><input class="form-control mb-4" type="password" id="registerFormInputSenha" aria-describedby="senhaHelp" placeholder=""><label for="registerFormInputSenha">Senha</label></div>
+                                <div class="form-group mb-4"><input class="form-control mb-4" type="password" id="registerFormInputSenha" aria-describedby="senhaHelp" placeholder=""><label for="registerFormInputConfirmarSenha">Confirmar senha</label></div>
+                                <div class="terms-conditions row align-items-center justify-content-center pt-4 mb-8">
+                                    <div class="form-check mr-1 mb-1"><label class="form-check-label"><input type="checkbox" class="form-check-input"><span class="checkbox-icon fuse-ripple-ready"></span><span>Eu li e aceito&nbsp;</span></label></div><a href="#" class="text-secondary mb-1">os termos e condições</a></div>
+                                <button
+                                    class="btn btn-secondary btn-block submit-button my-4 mx-auto fuse-ripple-ready" type="submit">Cadastrar</button>
+                            </form>
+                            <div class="login d-flex flex-column flex-sm-row align-items-center justify-content-center mt-8 mb-6 mx-auto"><span class="text mr-sm-2">Já possui uma conta?</span><a href="entrar.html" class="link text-secondary">Entrar</a></div>
                         </div>
                     </div>
                 </div>
