@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agroot</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/css/fuse-html.min.css">
+    <link rel="stylesheet" href="assets/css/perfect-scrollbar.css">
+    <link rel="stylesheet" href="assets/css/nv.d3.min.css">
+    <link rel="stylesheet" href="assets/css/PNotifyBrightTheme.css">
+    <link rel="stylesheet" href="assets/css/animate.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="http://cdn.materialdesignicons.com/3.5.95/css/materialdesignicons.min.css">
+</head>
+
+<body class="layout layout-vertical layout-left-navigation layout-below-toolbar layout-below-footer media-step-xl fuse-aside-folded">
+    <main>
+        <div class="wrapper">
+            <div class="content-wrapper">
+                <div class="content custom-scrollbar ps ps--active-y">
+                    <div id="login-v2" class="row no-gutters">
+                        <div class="intro col-12 col-md light-fg">
+                            <div class="d-flex flex-column align-items-center align-items-md-start text-center text-md-left py-16 py-md-32 px-12">
+                                <div class="logo bg-green-600 text-auto mb-8"><span>A</span></div>
+                                <div class="title">
+                                    <h1>Seja bem-vindo ao Agroot</h1>
+                                    <p class="description pt-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ullamcorper nisl erat, vel convallis elit fermentum pellentesque. Sed mollis velit facilisis facilisis viverra.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-wrapper col-12 col-md-auto d-flex justify-content-center p-4 p-md-0">
+                            <div class="form-content md-elevation-8 h-100 bg-white text-auto py-16 py-md-32 px-12">
+                                <h5 class="title h5">Entre com a sua conta</h5>
+                                <p class="description mt-2">Sed mollis velit facilisis facilisis viverra</p>
+                                <div class="alert alert-success mt-8" role="alert"><span>Sua senha foi redefinida com sucesso.</span></div>
+                                <form class="mt-8" name="loginForm" novalidate="">
+                                    <div class="form-group mb-4"><input class="form-control" type="email" id="loginFormInputEmail" aria-describedby="emailHelp" placeholder=""><label for="loginFormInputEmail">Endereço de e-mail</label></div>
+                                    <div class="form-group mb-4"><input class="form-control" type="password" id="loginFormInputPassword" placeholder="Senha"><label for="loginFormInputPassword">Senha</label></div>
+                                    <div class="remember-forgot-password row no-gutters align-items-center justify-content-between pt-4">
+                                        <div class="form-check remember-me mb-4"><label class="form-check-label"><input type="checkbox" class="form-check-input" aria-label="Lembrar"><span class="checkbox-icon fuse-ripple-ready"></span><span class="form-check-description">Lembrar</span></label></div>
+                                        <a
+                                            href="esqueci-senha.html" class="forgot-password text-secondary mb-4">Esqueci minha senha</a>
+                                    </div><a class="btn btn-primary btn-block submit-button my-4 mx-auto fuse-ripple-ready" role="button" href="#modal-desenvolvimento" data-toggle="modal">ENTRAR</a></form>
+                                <div class="separator"><span class="text">ou</span></div>
+                                <div class="register d-flex flex-column flex-sm-row align-items-center justify-content-center mt-8 mb-6 mx-auto"><span class="text mr-sm-2">Não tem uma conta?</span><a href="cadastro.html" class="link text-secondary">Criar uma conta agora</a></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" role="dialog" tabindex="-1" id="modal-desenvolvimento">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="modal-title">Modal para fins de desenvolvimento</h4><button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button></div>
+                    <div class="modal-body">
+                        <ul>
+                            <li><a href="entrar-erro.html">Simular erro no login</a></li>
+                            <li><a href="entrar-erro-nao-confirmado.html">Simular cadastro não confirmado</a></li>
+                            <li><a href="https://marvelapp.com/b42935e/screen/54122941">Simular login com sucesso</a></li>
+                        </ul>
+                    </div>
+                    <div class="modal-footer"><button class="btn btn-light" type="button" data-dismiss="modal">FECHAR</button></div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/mobile-detect.min.js"></script>
+    <script src="assets/js/perfect-scrollbar.min.js"></script>
+    <script src="assets/js/popper.min.js"></script>
+    <script src="assets/js/d3.min.js"></script>
+    <script src="assets/js/nv.d3.min.js"></script>
+    <script src="assets/js/jquery.dataTables.js"></script>
+    <script src="assets/js/dataTables.responsive.js"></script>
+    <script src="assets/js/PNotify.js"></script>
+    <script src="assets/js/PNotifyStyleMaterial.js"></script>
+    <script src="assets/js/PNotifyButtons.js"></script>
+    <script src="assets/js/PNotifyCallbacks.js"></script>
+    <script src="assets/js/PNotifyMobile.js"></script>
+    <script src="assets/js/PNotifyHistory.js"></script>
+    <script src="assets/js/PNotifyDesktop.js"></script>
+    <script src="assets/js/PNotifyConfirm.js"></script>
+    <script src="assets/js/PNotifyReference.js"></script>
+    <script src="assets/js/fuse-html.min.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
